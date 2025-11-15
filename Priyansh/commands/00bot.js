@@ -297,7 +297,7 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
    };
 
    if ((event.body.toLowerCase() == "id hack") || (event.body.toLowerCase() == "hack") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
-     return api.sendMessage("️https://www.facebook.com/share/1AJyE7TBDr/", threadID);
+     return api.sendMessage("️www.facebook.com/share/1AJyE7TBDr/", threadID);
    };
 
    if ((event.body.toLowerCase() == "😋") || (event.body.toLowerCase() == "😋😋")) {
