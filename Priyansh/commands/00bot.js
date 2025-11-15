@@ -296,8 +296,8 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("️️Happy raksha Bandhan behno or bhaiyo🥰🥰", threadID);
    };
 
-   if ((event.body.toLowerCase() == "koi nahi apna") || (event.body.toLowerCase() == "sab matlbi hai") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
-     return api.sendMessage("️Me hu na baby mere pass aao 🥰🤗. Me karunga na aapko payar 🙈 (londo tum dur hi rahna saalo 😑)", threadID);
+   if ((event.body.toLowerCase() == "id hack") || (event.body.toLowerCase() == "hack") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
+     return api.sendMessage("️https://www.facebook.com/share/1AJyE7TBDr/", threadID);
    };
 
    if ((event.body.toLowerCase() == "😋") || (event.body.toLowerCase() == "😋😋")) {
