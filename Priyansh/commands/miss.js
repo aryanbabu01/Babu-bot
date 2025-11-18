@@ -16,11 +16,11 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
 	if(react.includes("Miss") ||
-     react.includes("I miss") || react.includes("miSS") || react.includes("miSs") ||
+     react.includes("miSs") || react.includes("miSS") || react.includes("miSs") ||
 react.includes("miss") ||
-react.includes("Miss")) {
+react.includes("MISS")) {
 		var msg = {
-				body: `‌🙋 MISS YOU 2 JAANU ROTE NOI 🙋`,attachment: fs.createReadStream(__dirname + `/noprefix/rote.gif`)
+				body: `‌🙋 MISS YOU 2 JAANU ROTE NOI 🙋`,attachment: fs.createReadStream(__dirname + `/noprefix/miss.mp3`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤩", event.messageID, (err) => {}, true)
